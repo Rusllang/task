@@ -13,12 +13,16 @@ def beb(d):
             d[j]=s
         elif isinstance(d[j], dict):#2. Все ключи словаря переводятся в верхний регистр.
             print("bebra")
+
             print(d[j].keys())
             for i in d[j]:
-                d[j][i].upper()
-            print(d[j])
+                print(d[j])
+                i.upper()
+                #i = q
+                #print(q)
+            print(d[j].fromkeys(0))
 #        elif isinstance(d[j], str):
-
+    print(d)
 
 
 with open("test.json", "r+") as f:
