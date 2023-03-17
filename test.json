@@ -1,24 +1,16 @@
 [
-    "3 5",
-    {
-        "KEY1": 34534,
-        "KEY2": "text for key1",
-        "KEY3": [
-            234,
-            345,
-            345
-        ]
-    },
-    {
-        "KEY1": 34534,
-        "KEY2": "text for key2",
-        "KEY3": [
-            234,
-            345,
-            345
-        ]
-    },
-    3453,
-    "some text, s",
-    true
+  [ 2, 3, 4, 5 ],
+  {
+    "key1": 34534,
+    "key2": "text for key1",
+    "key3": [ 234, 345, 345 ]
+  },
+  {
+    "key1": 34534,
+    "key2": "text for key2",
+    "key3": [ 234, 345, 345 ]
+  },
+  3453,
+  "some text, some more text",
+  true
 ]
